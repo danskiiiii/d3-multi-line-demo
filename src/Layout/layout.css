@@ -1,0 +1,30 @@
+#wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2rem 1fr 2rem;
+}
+
+:root {
+  --page-boundries-bg: #35373b;
+  --page-boundries-txt: white;
+}
+
+#header {
+  background-color: var(--page-boundries-bg);
+  color: var(--page-boundries-txt);
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  border-top: 1px solid black;
+  padding: 0.5rem;
+  background-color: var(--page-boundries-bg);
+  color: var(--page-boundries-txt);
+}
